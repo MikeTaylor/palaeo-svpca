@@ -10,6 +10,13 @@ See also [`README-reconstruction.md`](README-reconstruction.md) -- Claude's acco
 
 I am pleased to present the resulting recovered and enhanced site, with Adam's and Jason's help, not only as a record of past SVPCA meetings but also as a tribute to Richard.
 
-
 -- Mike Taylor <dino@miketaylor.org.uk>
+
+&nbsp;
+
+---
+
+![Richard and me in 2005](cindy_h_010.jpg)
+
+_The only extant photo, to my knowledge, of Richard (left) and me (right) together, taken by Cindy Howells at a drinks reception at the 2005 SVPCA meeting at the Natural History Museum, London, UK. That was only my third SVPCA, and the second one where I gave a talk._
 
