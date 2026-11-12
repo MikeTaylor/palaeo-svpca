@@ -1,0 +1,13 @@
+# Lets old svpca.org links keep working on Apache (needs mod_rewrite and
+# AllowOverride FileInfo). A page that lived at /X.php?Q is stored as
+# /X@Q.html, or as /X.html when the query made no difference.
+RewriteEngine On
+
+RewriteCond %{QUERY_STRING} .
+RewriteCond %{REQUEST_FILENAME} ^(.+)\.php$
+RewriteCond %1@%{QUERY_STRING}.html -f
+RewriteRule ^(.*)\.php$ $1@%{QUERY_STRING}.html [L,QSD]
+
+RewriteCond %{REQUEST_FILENAME} ^(.+)\.php$
+RewriteCond %1.html -f
+RewriteRule ^(.*)\.php$ $1.html [L,QSD]

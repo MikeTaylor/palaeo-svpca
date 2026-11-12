@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<meta http-equiv='content-type' content='text/html; charset=utf-8' />
+			<title>SVPCA</title>
+			<link rel='stylesheet' href='../../styles/styles.css' type='text/css' />
+			
+			
+		</head>
+	<body>
+<div id='wrapper'>
+        <div name='header' id='header'><div name='title' id='title'>The Annual Symposium of Vertebrate Palaeontology and Comparative Anatomy</div><div name='loggon' id='loggon'></div></div><div name='menuPanel' id='menuPanel'>
+		<div style='width:14.285714285714286%' class='navBack'><a style='font-weight: normal; color: inherit;' href='../../index.html'>
+		<div class='navInset'>SVPCA Home</div>
+		</a></div>
+		
+		<div style='width:14.285714285714286%' class='navBack '>
+		<div class='navInsetPlain'>2013 Edinburgh, National Museums Scotland</div>
+		</div>
+		
+		<div style='width:14.285714285714286%' class='navBack'><a style='font-weight: normal; color: inherit;' href='../2012_oxford/index.html'>
+		<div class='navInset'>2012 Oxford, Oxford University Museum of Natural History</div>
+		</a></div>
+		
+		<div style='width:14.285714285714286%' class='navBack'><a style='font-weight: normal; color: inherit;' href='../2014_york/index.html'>
+		<div class='navInset'>2014 York, Centre for Anatomical and Human Sciences, Hull York Medical School</div>
+		</a></div>
+		
+		<div style='width:14.285714285714286%' class='navBack'><a style='font-weight: normal; color: inherit;' href='../../pages/previousyears.html'>
+		<div class='navInset'>Previous Years</div>
+		</a></div>
+		
+		<div style='width:14.285714285714286%' class='navBack'><a style='font-weight: normal; color: inherit;' href='../../pages/jonesfenleigh.html'>
+		<div class='navInset'>Jones-Fenleigh Fund</div>
+		</a></div>
+		
+		<div style='width:14.285714285714286%' class='navBack'><a style='font-weight: normal; color: inherit;' href='../../pages/Conduct.html'>
+		<div class='navInset'>Code of Conduct</div>
+		</a></div>
+		</div><div name='mainPanel' id='mainPanel'>
+		<div class='page'>
+		<div class='fH acent'>Edinburgh 2013</div>
+		<div name='yearIcon' id='yearIcon'><a href='../../images/venues/2013logo.png'><img src='../../images/venues/2013logo.png'/></a></div>
+		<div class='sH fs12 acent bb'>27th - 30th August 2013</div>
+		<p>"<img style="width: 90%; margin-left: 5%;" src="images/&quot;.$_GET[" /></p><br />
+<h3>Maps</h3><br />
+<p>","</p><br />
+<p><a href="third.circular.php">Third Circular</a><br /> <a href="&quot;.$_SERVER[">Map key</a><br /> <a href="&quot;.$_SERVER[">Map A</a><br /> <a href="&quot;.$_SERVER[">Map B</a><br /> <a href="&quot;.$_SERVER[">Map C</a></p></div>
+		</div><div name='rightPanel' id='rightPanel'><h3>Edinburgh 2013</h3><img style='width: 100%' src='../../images/venues/2013logo.png'/></div><div name='footer' id='footer'>
+		<div class='w39 fleft'>&nbsp;</div>
+		
+		<div class='w60 fright aright'>
+		    Web site hosting and design <a href='mailto:richard@cbrp.co.uk'>Richard Forrest</a> <a href='http://www.cbrp.co.uk'>CBRP Ltd</a>&nbsp;&nbsp;&nbsp;&nbspThis page last updated: 07th March 2026</div>
+		</div><!-- postbuild: rebuilt -->

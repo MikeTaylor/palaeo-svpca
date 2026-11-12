@@ -1,0 +1,502 @@
+body {
+  font-family: Tahoma, Arial, helvetica, sans-serif; 
+  font-size: 73%; 
+  background-color: white; 
+  color: rgb(18,14,14); 
+}
+a{ text-decoration: none; font-weight: normal;}
+h1,.h1{ font-weight: bold; margin-top: 1em; font-size: 1.3em; padding: 0}
+h2{ text-align: center; font-weight: bold; font-size: 1.2em; width: 100%}
+h3{ text-align: center; margin-left: 15%; font-size: 1.1em; width: 75%;}
+h4{ padding-left: 7.5%; font-size: 1.05em ; width: 92%;}
+h6{font-style: italic; font-size: 1em; font-weight: normal; margin: 1.5em 0 -1em 6%}
+img{border: none}
+sup{font-size : 0.65em;}
+td{vertical-align: top; border: 1px solid black; border-collapse: collapse; border-spacing: 0; text-align: left; padding: 3px;}
+textarea{font-family : Tahoma, Arial, helvetica, sans-serif; font-size: 1em; width: 100%; font-weight: normal; text-align: left;}
+div{float: left;}
+
+#wrapper{width: 96%; margin-left: 2%; min-height: 50em;}
+#header{width: 100%; background-image: url('../siteImages/svpcaLogo.png'); background-position: right top; background-repeat: no-repeat;}
+#title{font-variant: small-caps; margin-top: 4em; font-size: 2em;}
+#loggon{width: 100%; text-align: right; border-bottom: 0.2em solid #ddd; padding-bottom: 0.3em;}
+#main h1 {margin-left: 10em; width: 32em; font-size: 1.2em}
+#main h2 {margin-left: 8em; width: 32em}
+#main h3 {margin-left: 8em; width: 32em}
+#main h4 {margin: 0 0 0 10em; width: 50em;}
+#main ol, #main ul{ text-align: left; padding-left: 19em; padding-right: 5em;}
+#main p{ text-align: justify; margin-left: 15em; width: 40em;}
+#main table{margin: 2em 0 0 15em; width: 40em;}
+#main, #mainWide, #rightPanel{font-size: 1em;}
+#main{width: 100%; min-height: 30em;}
+#footer{width: 100%; min-height: 5em; font-size: 0.9em; padding: 2em 0 0 0; border-top: 0.1em solid gray;}
+
+#abstText {width: 89%; margin: 2em 0 2em 10%;}
+#abstText p{margin: 0.3em 0 0.3em 0; padding: 0 0 0 0; width: 100%;}
+
+#abstTitle{width: 100%; margin: 1em 0 1em 10%; font-size: 1.2em;}
+#abstTitle p{margin: 0.2em 0 0.2em 0; padding: 0 0 0 0;}
+/*colours*/
+/*color*/
+
+.formlabel. label{color: #6f6f6f;}
+a{color: rgb(44,86,126);}
+.infoBox{color: #111;}
+.formButton,.adminButton{color: #50878B;}
+.smallBlank {color: #aaa;}
+.fLPale{color: #bbb};}
+#pagehead, .linkPlain,.delegates,.button,.menu a, .menuAlt a  .progupdate a, .progupdateAlt a,.menu, .menuAlt,.noteBox {color: black;}
+.abstract a{color: blue;}
+.grey{color: grey;}
+.navInsetBlank,. navInsetPlain,.button a{color: inherit;}
+.#main a: hover,.fM,.abstract a: hover, .formButtonAlt, .message, .pageMessage,.red, .validate, .warn{color: red;}
+.button,  .letter{color: rgb(140,140,140);}
+.navInset: hover, .button: hover, .subbutton: hover , .imagButton: hover, .letter: hover{color: rgb(210,240,241);}
+.navInset, .navInsetSing, .mLink, .subbutton{color: rgb(50,50,50);}
+.infoBox: hover{color: white;}
+/*background-color*/
+.button,  .letter, .navInset, .navInsetSing, .mLink, .subbutton, .spanButton {background-color: rgb(154, 207, 254);}
+.button, .headerButton , .linkbutton, .showbutton, .smallButton, .intButton, .fwidthbutton{background-color: rgb(253,219,56);}
+.infoBox: hover {background-color: #aaa;}
+.imagYes {background-color: #bbb;}
+.button: hover, .submitbutton: hover{background-color: #eda771;}
+.highlight {background-color: #f9ff9c;}
+.mandMessage {background-color: #FFFF99;}
+.aqua, .pageTitle{background-color: aqua;}
+.navInsetBlank,. navInsetPlain{background-color: inherit;}
+.lime{background-color: lime;}
+.olive{background-color: olive}
+.pink{background-color: pink}
+.html p{background-color: red;}
+.headerButtonAlt{background-color: rgb(117,79,76);}
+.navInset: hover, .button: hover, .subbutton: hover , .imagButton: hover, .letter: hover{background-color: rgb(140,140,140);}
+.intButtonAlt,.smallButtonAlt, .fwidthbuttonAlt{background-color: rgb(153,219,56);}
+.sessColor{background-color: rgb(225, 225, 225);}
+.headerButtonCurr {background-color: rgb(240,205,138);}
+.current{background-color: rgb(255, 231, 187)}
+.imageThumb: hover{background-color: rgba(255, 255, 0, 0.74);}
+.teal{background-color: teal}
+.adminButton, .blankLine,.formButtonAlt, .formButton,.imgAlt,.mailLineNormal, .navBackSing {background-color: transparent;}
+body, .white, .abstractPage, .delegates{background-color: white;}
+.yellow,.mailLineHeigh,.bbbb: hover, .linkbutton: hover{background-color: yellow;}
+.lightgray{background-color: #ccc ;}
+.high{background-color: rgba(0, 0, 0, 0.22);}
+/*border color*/
+.smallBlank, .smallButtonAlt,.smallButton ,.headerButton, .headerButtonAlt, .headerButtonCurr, .intButton, .intButtonAlt, .fwidthbutton, .fwidthbuttonAlt{border-color: #666;}
+.hover:hover{background-color: yellow;}
+
+.warn{background-color: yellow; color: red;}
+
+
+.inner-border {
+        border: 0.1em solid grey; 
+        box-shadow: inset 0px 0px 0px 0.05em grey; 
+        box-sizing: border-box; /* Include padding and border in element's width and height */
+    }
+
+#noLeftPanel{width: 80%; min-height; 30em;}#Author{width: 70em; text-align: right;}
+#extramenu {border-top: 0.1em solid gray; border-bottom: 0.1em solid gray}
+#fullPanel{width: 100%; border-bottom: 0.2em solid #ccc; padding: 0.3em 0 0.3em 0;}
+
+#gallerypage h3{float: left; width: 54.2em; font-size: 1.2em; font-weight: normal; margin: 0 0 1em 0.5em; border-bottom: 0.1em solid gray;}
+#gallerypage{width: 75em;}
+#gallPanel{width: 88%;}
+#info{position: absolute; left: 1em; top: 0.5em; font-size: 0.9em;}
+#leftPanel{width: 12%; min-height: 30em; padding-top: 3em;}
+#Location{width: 100%; text-align: center; font-size: 1.2em; margin-top: 0.5em}
+#mainContainer {margin-left: 9em; width: 65em;}
+#mainheading{font-size: 1.2em; font-weight: bold; width: 59.5em; margin: 0 0 1em 0 ; text-align: center;}
+#mainPanel{width: 70%;}
+#mainWide, #main{width: 74.5em; min-height: 50em; text-decoration: none; font-weight: normal;}
+#mainWide{ float : right; padding : 0; margin-bottom: 2em; z-index: 0;}
+#menu a, #extramenu a{font-weight: normal;}
+#menu, #extramenu{float: left; width: 90em; height: 2em;}
+#menuPanel{width: 100%; border-bottom: 0.1em solid gray;}
+#pagehead{; font-family: arial, helvetica, tahoma, sans-serif; font-weight: normal; height: 9em; font-variant : small-caps;}
+#pageInformation{font-weight: bold}
+#pageSubheading, #pageInformation{width: 55em; padding-left: 5em; font-size: 1.2em; height: 1.4em}
+#pageSubheading{margin-bottom: 1.5em}
+#rightPanel h3{ text-align: left; border-bottom: 0.1em solid #6f6f6f ; margin-bottom: -.7em; margin-top: 2em; padding-left: 1.5em;}
+#rightPanel img{width: : 80%;}
+#rightPanel p{ padding-left: 1.5em; padding-right: 1em; font-size: 0.9em}
+#rightPanel,  .newsItem{ width: 15em;}
+#rightPanel{float: left; padding: 0;}
+#rightPanel{min-height: 50em;}
+#rightPanel{width: 15%; padding: 0 ; float: right; margin: 2em 0 0 0 ; min-height: 30em;}
+#subheading{font-size: 1.15em; font-weight: bold; width: 62.6em; margin: 0 0 1em 0 ; text-align: center;}
+#svpcaHeading{position: absolute; top: 4em; font-size: 1.5em;}
+
+#yearHead{font-size: 1.2em; font-weight: normal; width: 42em; margin: 1em 10em 1em 10em ; text-align: center;}
+#yearIcon {width: 100%; text-align: center;}
+#yearVenue{text-align: center; font-size: 1.05em; width: 42em; margin: 0.5em 10em 1em 0em; font-weight: bold;}
+
+.w100 p{padding: 0; margin: 0;}
+
+.previousY, .yearFloat{ width: 18em; margin-left: 0.8em;}
+
+.abstAuthors{width: 48em; font-weight: normal; margin: 0.5em 0 0 5em;}
+.abstInst{width: 48em; font-weight: normal; margin: 0.5em 0 0 6em;}
+.abstract-footlink{float: right; text-align: right; padding-right: 1em;}
+.abstract-inst{ font-style : italic; padding: 0 3.5em 2em 5em; font-size: 1.1em }
+.abstract-name{padding: 0 3em 0.5em 0.5em; font-size: 1.2em;}
+.abstract-references ul{ padding: 0 0 0 0; list-style : none url(images/list_spot.gif);}
+.abstract-references{}
+.abstract-submit{float: right; text-align: right; padding-right: 1em}
+.abstract-text{padding : 0 3em 2em 2em; text-align : justify; font-size: 1.1em }
+.abstract-title{padding: 1.5em 3em 1em 0; font-weight: bold; font-size: 1.2em}
+.abstract{padding-left: 3em}
+.abstractPage{border: 0.1em solid gray; padding: 1em; margin: 1em 3em 1em 3em;}
+.abstSection{width: 48em; font-weight: bold; margin: 2em 0 0 5em; font-size: 1.3em}
+.abstText p {margin: 0.5em 0 0 0; padding: 0;}
+.abstText{font-weight: normal; margin-left: -15% ; text-align: justify; border-bottom: 0.1em solid gray }
+
+
+.acent{text-align: center;}
+.aleft{text-align: left;}
+
+.adminButton{ text-decoration: none; padding: 0; margin: 0; font-weight: bold; border: 0; text-align: left;}
+.adminContent{float: right; width: 39em;}
+.adminForm {float: left; width: 50em; font-size: 1.2em; margin-left: 3em;}
+.adminInterimSubmit{width: 12em; float: right; text-align: right; padding-right: 0.5em}
+.adminLabel{float: left; width: 12em; text-align: right; padding-right: 0.3em; font-weight: normal}
+.adminMessage{margin-left: 8em; font-size: 1.1em;}
+.adminSmall{float: left; width: 6em; text-align: center; border-right: 0.1em solid black; border-bottom: 0.1em solid black;}
+.adminStdContent{float: right; margin-right: 28em; width: 12em;}
+.adminTable {border: 0.1em solid gray}
+.adminTable td {padding: 0.1em; border: 0.1em solid gray;}
+.adminText{padding-left: 0.5em; font-weight: bold}
+.adminUL li{padding: 0; margin: 0; width: 4.5em; line-height : 2.2em; border-bottom: 0.1em solid black}
+.adminUL{padding: 0; margin: 0; list-style : none;}
+.adminwideinput{width: 40em}
+
+.aright{text-align: right;}
+.author{ margin-top: 2em; text-align: right;}
+
+.bank {font-style: italic; text-align: right; padding-right: 0.5em; font-weight: normal}
+.bareLink li {list-style : none;}
+.bb{border-bottom: 0.15em solid black; min-height: 1em;}
+.bbl{border-bottom: 0.1em dashed gray; min-height: 1em;}
+.tbl{border-top: 0.1em dashed gray; min-height: 1em;}
+.border{border: 0.1em solid #aaa;}
+.blankLine{height: 2em;}
+.bodyContent{font-size: 1em; width: 56.5em; margin-left: 4em}
+.bold {font-weight: bold;}
+.bookingTable{border: 0.2em solid #6f6f6f;}
+.bord{border: 0.1em solid black; padding: 2%;}
+.break{height: 1.5em; border-bottom: 0.1em solid black; padding-left: 2em}
+.bspace{margin-bottom: 1em;}
+.button a{font-weight: normal;}
+.button,  .letter{font-weight: normal; 	font-size: 1em; 	text-align: center; 	margin: 0; border: 0.1em solid #ccc; 	padding: 0.2em 0.4em 0.2em 0.4em;}
+.button {font-weight: normal; padding: 0.2em 0.4em 0.2em 0.4em; 	text-align: center; 	margin: 0; 	border-radius: 0.35em; 	border-width: 0.15em; 	font-size: 1em; 	float: inherit; 	border-style: outset;}
+.button: hover, .submitbutton: hover{border-style: inset;}
+.centre{text-align: center;}
+.checkBookingPage {margin: 1em 25em 5em 25em; padding: 2em;}
+.checkCell{width: 14.5em; margin: 0.2em; float: left; height: 2em}
+.checkPage pre{font-size: 1.2em; padding: 0; margin: 0; font-family: sans-serif; text-align: left}
+.checkPage td {padding: 0 0.4em 0 0.4em;}
+.chkHeading{font-weight: bold; padding: 0.2em 0.1em 0.2em 0; width: 12em; text-align: right;}
+.chkMenu li{font-size: 1.2em; list-style: none; padding: 0.2em 0.8em 0.2em 0.8em; text-align: left; height: 1.5em}
+.chkMenu ul{width: 100%; margin: 0; padding: 0; text-align: left;}
+.chkMenu{ margin-top: 10em}
+.chkPage td{padding-top: 0.3em;}
+.chkPage{min-height: 50em; width: 70em; float: left}
+.chkPageMenu {width: 20em; float: left; min-height: 50em;}
+.choice{ text-align : right; border-bottom: 0.1em solid #eee; z-index: 3;}
+.codedirection{ unicode-bidi : bidi-override; direction : rtl;}
+.commentHead{width: 40em; margin: 1em 0 0 10em; border-bottom: 0.1em solid gray}
+.commText{width: 40em; margin: 0em 0 0 10em;}
+.conferenceDetails{margin: 0 0 0 -1.5em; padding: 0; width: 65.1em; border-bottom: 0.1em solid #ddd; border-top: 0.1em solid black; border-left: 0.1em solid #ddd; border-right: 0.1em solid #ddd;}
+.containingDiv{width: 44em; float: left; margin-bottom: 0.2em;}
+.costDiv{float: right; font-weight: bold; text-align: right; width: 5em}
+.costLine {float: right; font-style: italic}
+
+.currentYear{ border-bottom: 0.2em solid #666; font-weight: normal; text-align: right; background-image: url(images/thisYear.gif); background-position : 18em; background-repeat: no-repeat;}
+.dateInput{width: 6em;}
+.dayheading{border-bottom : 0.1em solid #000000; height : 2.5em; padding : 0.8em 0 0.5em 0; padding: 2em 0 0.5em 2em;}
+.delegates{float: left; padding: 0 2em 0 5em; margin-left: 2em;}
+.delegatesTable{width: 46em; font-size: 1em}
+.div45-head,.div35-head{font-size: 1.0em; font-weight: bold; border-bottom: 0.1em solid gray;}
+.div45-subhead,.div35-subhead{border-bottom: 0.1em solid black;}
+.div45,.div45-head,.div35,.div35-head,.div45-subhead,.div35-subhead {float: left; width: 45em; padding: 0; margin: 0}
+.div60 {float: left; width: 60em; padding: 0; margin: 0}
+.fC{width: 76%;}
+.fCcentered{ text-align : center; vertical-align : top;}
+.fH .button, .sH .button{font-size: 0.8em;}
+.fH{font-size: 1.2em; font-weight: bold; width: 100%; margin: 0 0 0.5em 0; padding: 0.4em 0 0.4em 0; border-bottom: 0.1em solid gray;}
+.fL .button{font-size: 0.9em;}
+.fL{width: 100%}
+.flindent{margin-left: -2em; font-style: italic}
+.floatingimage{ float: left; height: 13em; padding: 0.3em; text-align: center;}
+.fM{width: 80%; padding-left: 20%; font-size:1.1em; font-weight: normal; color: red;}
+.footerline{font-weight: bold; border-top: 0.1em solid gray; border-bottom: 0.1em solid black; padding-top: 0.3em; margin-top: 0.3em}
+.formButton{ border-bottom: 0.1em solid black; border-right: 0.1em solid #263313;}
+.formButtonAlt, .formButton{ text-decoration: none; padding: 0; margin: 0; font-weight: normal; width: 10em; text-align: center; float: right; text-decoration : underline;}
+.formButtonAlt{ border-top: 0.1em solid #263313; border-left: 0.1em solid #263313;}
+.formlabel{font-style : italic; padding-right : 3%; text-align : right; vertical-align : top; width: 24%; height: 1.2em; font-weight: normal}
+.formstart{font-size: 1.2em; font-weight: bold; width: 100%; border-bottom: 0.1em solid gray}
+.formTextBox{ font-family : Tahoma, Arial, helvetica, sans-serif; width: 4.5em; border: 0; padding: 0.3em 0.3em 0.3em 0.8em;}
+.fright{float: right;}
+.fs08{font-size: 0.8em;}
+.fs09{font-size: 0.9em;}
+.fs12{font-size: 1.2em;}
+.fs13{font-size: 1.3em;}
+.fs15{font-size: 1.5em;}
+.fulForm{width: 92%; margin: 0 4% 0 4%; padding: 0;}
+.fullwidth{float: left; width: 49.5em; margin: 0.5em 0 0.5em 0;}
+.fwd .button{width: 100%;}
+.fwidthbutton, .fwidthbuttonAlt{width: 4em; text-align: center;}
+.header{height: 3.5em; padding: 2em 0 0 0;}
+.headerButton{ border-style: outset;}
+.headerButtonAlt{border-style: inset;}
+.headerButtonCurr {border: 0.15em solid rgb(240,205,138);}
+.headerline{font-style: italic; border-bottom: 0.1em solid gray; padding-bottom: 0.3em; margin-bottom: 0.3em}
+.headline{font-size: 1.1em; font-weight: bold; width: 55em; margin: 2em 0 1em 0; padding-bottom: 0.3em; border-bottom: 0.1em solid gray}
+
+.highlight{font-weight: bold}
+.hspace{margin-top: 1.5em;}
+
+.ht10{height: 10em;}
+.ht15{height: 1.5em;}
+.ht2{height: 2em;}
+.ht25{height: 2.5em;}
+.ht3{height: 3em;}
+.ht15{height: 1.75em;}
+
+.ht20px{height: 20px;}
+
+.htMin5{min-height: 10em;}
+.htMin6{min-height: 18em;}
+
+.imageLink{ float: left; text-align: center; padding-left: 2em; text-align: left;}
+
+.imageThumb{width: 28%; height: 13.5em; border: 0.1em solid #ddd; padding: 1%; margin: 1%;}
+
+.imagYes, .imagNo {margin: 1em; float: left; width: 12.5em; height: 10em; text-align: center}
+.img img{width: 90%; margin: 0.2em 5% 0 5%;}
+.img, .imgAlt{float: right;}
+.infoBox{width: 90%; padding: 0.5em 2% 0.5em 2%; font-style: italic; font-size: 1em; border: 0.1em dashed grey;}
+.infoStrong{width: 80%; margin: 0.5em 10% 0.5em 10%; padding: 0.25em 0.5% 0.25em 0.5%; font-weight: bold; border: 0.1em dashed red;}
+.instruction {width: 45em; margin-left: 6em}
+.intButton a, .intButtonAlt a, .fwidthbutton a, .fwidthbuttonAlt a, .smallButton a, .smallButtonAlt a,{font-weight: normal}
+.intButtonAlt,.smallButtonAlt, .fwidthbuttonAlt{border-style: inset;}
+.intForm{width: 80%; margin: 0 10% 0 10%; padding: 0;}
+.italic {font-style: italic;}
+
+.just{text-align: justify;}
+.label{font-style : italic; font-weight: normal; 	padding-right : 1%; text-align : right; vertical-align : top; width: 19%; 	font-weight: normal;}
+.lastupdated{ font-family: Arial, Helvetica, sans-serif; font-size: 0.8em; font-style: normal; font-weight: lighter; text-align: right;}
+.leftInfo{text-align: left; width: 20em;}
+
+
+
+.linkbutton {border: 0.1em outset black; border-radius: 0.3em; padding: 0.1em 0.3em 0.1em 0.3em;}
+.linkbutton: hover{border: 0.1em inset black;}
+.linkPlain{font-weight: normal;}
+.logo img{width: 90%;}
+.logo: hover{border: 0.2em grey inset}
+.logo{border: 0.2em transparent outset; margin: 5%; text-align: center;}
+.lowKeyForm{ height: 1.4em; width: 9.5em; border-width: 0 0 0.1em 0.1em;}
+.mailLineHeigh{border-bottom: 0.1em  solid rgb(240,205,138); font-weight: bold; height : 2em; padding-top: 0.3em}
+.mailLineNormal{border-bottom: 0.1em  solid transparent; font-weight: normal; height : 1.5em}
+.mandMessage{width: 32em; padding: 0.3em 0 0.3em 1em; margin-left: 15.5em; font-size: 1em;}
+.medForm{width: 60%; margin: 1em 18% 1em 18%; border: 0.1em solid gray; padding: 1.5%; border-radius: 0.5em; border-style: inset}
+.menu a, .menuAlt a  .progupdate a, .progupdateAlt a{font-weight: normal;}
+.menu, .menuAlt{font-weight: normal;}
+.menu,.menuAlt, .submit, .submitAlt, .progupdate , .progupdateAlt {float: right; font-size: 0.9em;}
+.menu,.submit, .progupdate {border: 0.2em outset black}
+.menuAlt,.submitAlt, .progupdateAlt {border: 0.2em inset blue;}
+.menuNav, .menuNavAlt{float: right; margin-right: -5.2em; font-size: 1.2em; text-align: center}
+.menuNav{border: 0.2em outset blue}
+.menuNavAlt{border: 0.2em inset blue}
+.minForm{width: 40%; margin: 1.5% 28% 1.5%  28%; border: 0.2em solid gray; padding: 1.5%; border-radius: 0.5em; border-style: inset;}
+.minPlusForm{width: 50%; margin: 1.5% 25% 1.5%  22%; border: 0.2em solid gray; padding: 1.5%; border-radius: 0.5em; border-style: inset;}
+.money{width: 6em; float: left}
+
+.navBack{height: 2.75em; margin: 0.18em 0 0 0; text-align: center; }
+.navBackSing{height: 1.75em;}
+.navInsetSing,.navInsetBlank, .navInset, .mLink, .subbutton, .navInsetPlain{display: flex; align-items: center; justify-content: center; width: 98%; margin: 0.1em 0 0 0;  margin: 0; 	border-radius: 0.35em; 	border-width: 0.15em; 	font-size: 1em; 	float: inherit; 	border-style: outset; border-color:#AAA;}
+.navInsetBlank, .navInsetPlain, .navInset, .mLink, .subbutton{height: 2.5em;}
+.navInsetSing{height: 1.5em;}
+
+.subbutton{border: 0;}
+
+.newsItem{ float: left; text-align: justify;}
+.noBullets{ list-style : none; margin-left: 2em;}
+.noteBox{width: 90%; padding: 0.5em 5% 0.5em 5%; font-style: normal; border: 0.1em solid black; margin: 0.3em 0 0.3em 0;}
+
+.orglist li{list-style: none;}
+.page .fH {width: 60%; font-weight: bold; margin: 1em 10% 0 10%; font-size: 1.3em; padding: 0 3em 0 5em;}
+.page .fL{width: 75%; margin-left: 15%; font-size: 1em; margin-bottom: 1em;}
+.page .sH{width: 71%; margin: 0 10% 0 10%; font-weight: bold; font-size: 1.2em;}
+.page .ssH{width: 75%; margin: 0 12% 0 12%; font-weight: bold; font-size: 1em;}
+.page li{width: 100%;}
+.page table, .page p{margin: 0 0 1em 15%; width: 84%; text-align: justify; font-size: 1.1em;}
+.page ul,.page ol{margin: 0 0 1em 25%; width: 55%;}
+.page{width: 90%; margin: 2.5%; padding: 2.5%;}
+.pageMessage{padding-left: 12em; font-size: 1.1em; width: 40em; float: left;}
+.pageTitle{width: 100%; font-size: 1.2em;}
+.previousY a{font-weight: normal }
+.previousY{float: left; height: 12.8em; text-align: center; padding-bottom: 0.5em; margin-bottom: 1.2em; border-top: 0.1em solid #999999; overflow: hidden;}
+.programme {float: left; padding: 0 2em 0 5em; margin-left: 2em;}
+.programme td{ vertical-align: top;}
+.programme{ width: 90%; padding-left: 6em; font-weight : normal; text-align : left; vertical-align : top;}
+.programmeName{ font-weight: bold; text-align: right; padding-right: 1em }
+.progupdate , .progupdateAlt {text-align: center;}
+.publselect{width: 42em; margin: 1em 0 0 9em; border-bottom: 0.1em solid gray}
+.sectionHead{ float: left; width: 100%; height: 1.5em; margin-top: 0.5em; margin-left: -1.4em; padding: 2em 0 0 3em; border-bottom: 0.2em solid #999;}
+.session{height: 1.5em; padding: 0.5em 0 0.5em 2em;}
+
+.setProgLabel{width: 16em; text-align: right; padding-right: 0.5em;}
+.sH{width: 95%; font-size: 1.2em; padding-left: 5%; border-bottom: 0.1em dashed gray;}
+.showbutton{padding: 0.2em 0.4em 0.2em 0.4em }
+.small{width: 4em;}
+.smallBlank, .smallButtonAlt,.smallButton ,.headerButton, .headerButtonAlt, .headerButtonCurr, .intButton, .intButtonAlt, .fwidthbutton, .fwidthbuttonAlt{margin: 0 0 0 0.2em; padding: 0.2em 0.6em 0.2em 0.6em; border-radius: 0.35em; border-color: #666; border-width: 0.15em; font-size: 1em; font-weight: normal; 	}
+.smallBlank, .smallButtonAlt,.smallButton {font-size: 0.85em; padding: 0.1em 0.6em 0.1em 0.6em; text-align: center;}
+.smallBlank{border-color: gray; border: 0.15em solid #aaa;}
+.smallButton, .intButton, .fwidthbutton{border-bottom-style: outset}
+.sponsor{padding: 0.5em; text-align: center}
+.ssH{width: 90%; font-size: 1.1em; padding-left: 10%; border-bottom: 0.1em dashed gray;}
+.standardForm input{padding: 0.3em 0.3em 0.3em 0.8em;}
+.subForm: hover{border-style: inset}
+.subForm{width: 90%; margin: 1% 3% 1% 3%; padding: 1%; border: 0.1em solid #eee; padding: 1.5%; border-radius: 0.5em; border-style: outset}
+.submit, .submitAlt{margin-right: -7em;}
+.summ td{padding: 0 0.2em 0 0.2em}
+.sup{vertical-align: super; font-size: 0.7em;}
+.super {vertical-align: super; font-size: 0.9em; font-weight: bold;}
+.tb{border-top: 0.1em solid black; margin: 0.3em 0 0 0;}
+.tbb{border-top: 0.1em dashed gray; border-bottom: 0.1em dashed gray;}
+
+.thisYear{ border-bottom: 0.2em solid #6f6f6f; font-weight: normal; padding-right: 1.5em; text-align: right; background-image: url(images/thisYear.gif); background-position : right; background-repeat: no-repeat;}
+.topMenu {width: 100%; margin: 0.25em 0 1em 0; padding: 0.5em 0 0.5em 0;}
+.topspace {padding-top: 1.5em;}
+.tshirtline{width: 42.5em; margin: 0 0 1em 16em;}
+.w005{width: 0.5%}
+.w01{width: 1%}
+.w015{width: 1.5%}
+.w02{width: 2%}
+.w025{width: 2.5%}
+.w03{width: 3%}
+.w035{width: 3.5%}
+.w04{width: 4%}
+.w045{width: 4.5%}
+.w05{width: 5%}
+.w055{width: 5.5%}
+.w06{width: 6%}
+.w065{width: 6.5%}
+.w07{width: 7%}
+.w075{width: 7.5%}
+.w08{width: 8%}
+.w085{width: 8.5%}
+.w09{width: 9%}
+.w095{width: 9.5%}
+.w10{width: 10%;}
+.w11{width: 11%;}
+.w12{width: 12%;}
+.w13{width: 13%;}
+.w14{width: 14%;}
+.w15{width: 15%;}
+.w16{width: 16%;}
+.w17{width: 17%;}
+.w18{width: 18%;}
+.w19{width: 19%;}
+.w20{width: 20%;}
+.w21{width: 21%;}
+.w22{width: 22%;}
+.w23{width: 23%;}
+.w24{width: 24%;}
+.w25{width: 25%;}
+.w26{width: 26%;}
+.w27{width: 27%;}
+.w28{width: 28%;}
+.w29{width: 29%;}
+.w30{width: 30%;}
+.w31{width: 31%;}
+.w32{width: 32%;}
+.w33{width: 33%;}
+.w34{width: 34%;}
+.w35{width: 35%;}
+.w36{width: 36%;}
+.w37{width: 37%;}
+.w38{width: 38%;}
+.w39{width: 39%;}
+.w40{width: 40%;}
+.w41{width: 41%;}
+.w42{width: 42%;}
+.w43{width: 43%;}
+.w44{width: 44%;}
+.w45{width: 45%;}
+.w46{width: 46%;}
+.w47{width: 47%;}
+.w48{width: 48%;}
+.w49{width: 49%;}
+.w50{width: 50%;}
+.w51{width: 51%;}
+.w52{width: 52%;}
+.w53{width: 53%;}
+.w54{width: 54%;}
+.w55{width: 55%;}
+.w56{width: 56%;}
+.w57{width: 57%;}
+.w58{width: 58%;}
+.w59{width: 59%;}
+.w60{width: 60%;}
+.w61{width: 61%;}
+.w62{width: 62%;}
+.w63{width: 63%;}
+.w64{width: 64%;}
+.w65{width: 65%;}
+.w66{width: 66%;}
+.w67{width: 67%;}
+.w68{width: 68%;}
+.w69{width: 69%;}
+.w70{width: 70%;}
+.w71{width: 71%;}
+.w72{width: 72%;}
+.w73{width: 73%;}
+.w74{width: 74%;}
+.w75{width: 75%;}
+.w76{width: 76%;}
+.w77{width: 77%;}
+.w78{width: 78%;}
+.w79{width: 79%;}
+.w80{width: 80%;}
+.w81{width: 81%;}
+.w82{width: 82%;}
+.w83{width: 83%;}
+.w84{width: 84%;}
+.w85{width: 85%;}
+.w86{width: 86%;}
+.w87{width: 87%;}
+.w88{width: 88%;}
+.w89{width: 89%;}
+.w90{width: 90%;}
+.w91{width: 91%;}
+.w92{width: 92%;}
+.w93{width: 93%;}
+.w94{width: 94%;}
+.w95{width: 95%;}
+.w96{width: 96%;}
+.w97{width: 97%;}
+.w98{width: 98%;}
+.w99{width: 99%;}
+.w100{width: 100%;}
+.yearFloat{ float: left; padding-left: 2.5em;}
+
+
+
+.fm90{width: 90%; margin: 1em 4% 0 4%; padding: 0 1% 1% 1%;}
+.fm80{width: 80%; margin: 1em 9% 0 9%; border: 0.1em solid #ccc; padding: 0 1% 1% 1%;}
+.fm60{width: 60%; margin: 1em 19% 0 19%; padding: 0 1% 1% 1%;}
+.fm50{width: 50%; margin: 1em 24% 0 24%; padding: 0 1% 1% 1%;}
+.fm40{width: 40%; margin: 1em 29% 0 29%; padding: 0 1% 1% 1%;}
+
+.html em{font-style: italic;}
+.html i{font-style: italic;}
+.html p{margin: 0.2em 0 0.2em 0; padding: 0 0 0 0;}
+.html bold{font-weight: bold;}
+.html strong{font-weight: bold;}
+
+.sC .button a{font-weight: normal;color: black;}
+.sC .subbutton, .sC .button, .sC .navBack{width: 50%; margin-left:20%;min-height: 2.25em;  text-align: center; padding: 0.2em 0 0.2em 0;}
+.sC{width: 100%; margin-top: 0.3em; padding-top: 0.3em; border-top: 0.1em dashed gray;}
+.sC .button{color: black; background-color: rgb(154, 207, 254);}

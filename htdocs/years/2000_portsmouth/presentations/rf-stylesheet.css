@@ -1,0 +1,38 @@
+BODY {
+	color : #00008B;
+	background-color : Navy;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif, sans-serif;
+}
+.main{
+	color : #00008B;
+	background-color : #F0F8FF;
+	text-align : justify;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.heading{
+		color : #00008B;
+	background-color : #F0F8FF;
+	text-align : center;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size : larger;
+}
+.notice{
+	color : #F0F8FF;
+	background-color : #00008B;
+	text-align : center;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size : 25px;
+	border: 2px black solid;
+}
+
+.choice 	{ 	font-family: Tahoma, Arial, Helvetica, sans-serif;
+ 			font-size: 10pt;
+ 			text-align: center;
+     		color: yellow;
+ 			background-color: #008DB0;
+			background-image: url(bg-008db0.jpg);
+		border : 2px outset #D6E4E3;
+ 		}

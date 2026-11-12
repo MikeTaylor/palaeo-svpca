@@ -1,0 +1,33 @@
+.button, .subbutton
+	{
+	font-weight: normal; 
+	color: black; padding: 0.2em 0.4em 0.2em 0.4em; 
+	text-align: center; 
+	margin: 0; 
+	border-radius:0.35em; 
+	border-width: 0.15em; 
+	font-size: 1em; 
+	float: inherit;
+	background-color: rgb(253,219,56);
+	border-style: outset; 
+	}
+.button a{font-weight: normal; color: inherit;}
+.button:hover, .submitbutton:hover{border-style: inset; background-color: #eda771 }
+
+.current{font-weight: normal; 
+	color: black; padding: 0.2em 0.4em 0.2em 0.4em; 
+	text-align: center; 
+	margin: 0; 
+	border-radius:0.35em; 
+	border-width: 0.1em; 
+	font-size: 1em; 
+	float: inherit;
+	background-color: transparent;
+	}
+
+.sC .button a{color: black; font-weight: normal;}
+.fwd .button{width: 100%;}
+
+.sC .subbutton, .sC .button{width: 50%; margin-left: 25%; text-align: center; padding: 0.2em 0 0.2em 0;}
+.fH .button, .sH .button{font-size: 0.8em;}
+.fL .button{font-size: 0.9em;}
